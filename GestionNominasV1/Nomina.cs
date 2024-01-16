@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace GestionNominasV1
 {
-    internal class Nomina
+    public class Nomina
     {
+        // MIEMBROS PRIVADOS DE LA CLASE
+        private string _nombre;
+        private string _apellidos;
+        private string _puesto;
+        private int _horasTrabajadas;
+        private float _salarioHora;
+
     }
 }
